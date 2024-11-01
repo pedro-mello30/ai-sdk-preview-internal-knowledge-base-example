@@ -4,7 +4,7 @@ import postgres from "postgres";
 import dotenv from "dotenv";
 
 dotenv.config({
-  path: ".env.local",
+  path: ".env",
 });
 
 const runMigrate = async () => {
